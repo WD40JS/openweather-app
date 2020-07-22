@@ -1,20 +1,15 @@
 # openweather-app
 Weather application. 
 
-## Acceptance Criteria are as follows
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
+## Purpose of Development
+To forecast the weather through icons and easily defined measures that give informatio on cities searched. 
+Assets/Screen Shot 2020-07-22 at 4.43.35 PM.png
 
-## Documentation as experienced
+## Challenges
+I was unable to retrieve data from the forecast api call so had to resort to using the current api for this action. 
+I was unable to add dates successfully in order to call forecasts.
+UV and date were unretreivable for an unknown reason as they weren't called in the weather json data that was returned. 
+All time was devoted to these tasks and a new key was given for the forecast api to no avail. 
 
+## Future of this Application 
+I will be upodating this when completed to sastisfaction however I didn't have enough availible time to successfully meet all requirements neccessary.
