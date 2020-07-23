@@ -13,4 +13,5 @@ All time was devoted to these tasks and a new key was given for the forecast api
 
 ## Application 
 Application works as follows.
-Displays UV,Temp,Wind,Time and Humidity for five day forecast. 
+Displays UV,Temp,Wind,Time and Humidity for five day forecast.
+Saves past city searches for later use in localStorage.
